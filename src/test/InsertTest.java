@@ -14,7 +14,7 @@ public class InsertTest {
   public void insertMember(String id, String pwd, String nickname) {
     // DB 연결
     Connection conn = getDBConnection();
-    
+
     // PreparedStatement 변수 선언
     PreparedStatement pstmt = null;
 
